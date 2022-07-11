@@ -1,3 +1,3 @@
-module learn-golang
+module learn
 
 go 1.18

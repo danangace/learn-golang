@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"learn-golang/calculation"
+	"learn/calculation"
 )
 
 func main() {
-	totalPrice := calculation.PriceAfterDiscount(10000, 0.1)
-	fmt.Printf("Total price is %d", totalPrice)
+	salary := calculation.CalcSalary(12800000, 0.1)
+	fmt.Printf("Gaji seorang programmer adalah %d", salary)
 }
